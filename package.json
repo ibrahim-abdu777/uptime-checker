@@ -1,0 +1,9 @@
+{
+  "name": "uptime-checker",
+  "version": "0.2.0",
+  "description": "Small CLI that checks a list of URLs and prints uptime",
+  "bin": { "uptime-checker": "src/cli.js" },
+  "scripts": { "test": "node --test test/checks.test.js" },
+  "dependencies": { "okmetrics": "github:ibrahim-abdu777/okmetrics" },
+  "license": "MIT"
+}
